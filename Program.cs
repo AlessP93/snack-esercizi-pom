@@ -61,40 +61,44 @@ Console.WriteLine(sum);
 
 //Calcola la somma e la media dei numeri da 2 a 10
 
-/*int[] arrayNumeri = new int[9] { 2, 3, 4, 5, 6 , 7, 8, 9, 10 };
+/*int somma = 0;
+int media = 0;
 
-int sum = 0; 
-
-for (int i = 0; i < arrayNumeri.Length; i++)
+for (int i = 0; i < 10; i++)
 {
-    Console.WriteLine("La somma dei numeri è ", sum += arrayNumeri[i] );
+    somma += i;
 }
+media = somma / (10 - 2)+1;
+
+Console.WriteLine(media);
 */
 
 
 //----------SNACK 5
 
 //chiedi all' utente di inserire un numero
-
-/*Console.WriteLine("inserisci un numero");
-int Numero = Convert.ToInt32(Console.ReadLine());
-
-//se il numero è pari stampa 
-if (Numero == 2)
+/*for (int i = 0; i < 5; i++)
 {
-    Console.WriteLine("Il numero è pari");
-}
-//se è dispari scartalo
-else if (Numero == 3)
-{
-    Console.WriteLine("Il numero è dispari");
+    Console.WriteLine("inserisci un numero");
+    int Numero = Convert.ToInt32(Console.ReadLine());
+
+    //se il numero è pari stampa 
+    if (Numero % 2 == 0)
+    {
+        Console.WriteLine("Il numero è pari");
+    }
+    //se è dispari scartalo
+    else
+    {
+        Console.WriteLine("Il numero è dispari", Numero + 1);
+    }
 }
 */
 
 
 //------------SNACK 6
 
-//chiedo all' utente il nome
+//chiedo all' utente il nome se è presente nella lista entra sennò resta fuori
 
 /*string[] lista = {"Mario", "Luca", "Filippo", "Andrea", "Matteo"};
 
@@ -120,7 +124,6 @@ else
     Console.WriteLine("ops non sei invitato");
 }
 */
-
 
 
 //-----------SNACK 7
@@ -161,7 +164,7 @@ for (int i = 0; i < numeriDispari.Length; i++)
 //Quindi chiedere un numero all'utente e comunicargli se è pari o dispari.
 
 
-Console.WriteLine("inserisci un numero");
+/*Console.WriteLine("inserisci un numero");
 int numeroUtente = Convert.ToInt32(Console.ReadLine());
 
 void VerificaPariDispari(int numero)
@@ -177,3 +180,4 @@ void VerificaPariDispari(int numero)
 }
 
 VerificaPariDispari(numeroUtente);
+*/
