@@ -130,19 +130,21 @@ else
 //crea un array vuoto
 // 
 
-/*int[] numeriDispari = new int[6];
+//int[] numeriDispari = new int[6];
 
-for (int i = 0; i < numeriDispari.Length; i++)
-{
-    int numeroInserito = Convert.ToInt32(Console.ReadLine());
+//for (int i = 0; i < numeriDispari.Length; i++)
+//{
+//    int numeroInserito = Convert.ToInt32(Console.ReadLine());
 
-    if (numeroInserito % 2 != 0)
-    {
-        numeriDispari[i] = numeroInserito;
-        i++;
-    }
-}
-*/
+//    if (numeroInserito % 2 != 0)
+//    {
+//        numeriDispari[i] = numeroInserito;
+//        i++;
+//    }
+
+//    numeriDispari.ToList().ForEach(Console.WriteLine);
+//}
+
 
 
 //--------------SNACK 8
